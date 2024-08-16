@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .img1 {
+        height: 300px;
+        width: 450px;
+    }
+</style>
+
+<body>
+    <h1>Hei Hei!</h1>
+    <Div>
+        Hei mitt navn er Trygve og har nettop starta med Get academy, jeg er 19 år og er født i august
+        <ul>
+            Hobbyer er som følgene:
+            <br>
+            svømming
+            <br>
+            gaming
+            <br>
+            se film og serie
+            <br>
+            og gå litt tur
+            </br>
+        </ul>
+    </Div>
+
+
+    <div>
+        <img class="img1" src="bilder/selfie.jpg" alt="123">
+    </div>
+    <div id="lilla1"></div>
+    <button onclick="farge1()">Lilla</button>
+    <button onclick="farge2()">grønn</button>
+    <div src="bilder/lilla.jpg"> </div>
+    <div src="bilder/grønn.jpg"> </div>
+
+
+
+    <script>
+        function farge1() {
+            document.getElementById('lilla1').innerHTML = /*HTML*/`
+            <img src = "bilder/lilla.jpg"> `
+        }
+        function farge2() {
+            document.getElementById('lilla1').innerHTML = /*HTML*/`
+            <img src = "bilder/grønn.jpg"> `
+        }
+
+
+    </script>
+
+</body>
+
+</html>
